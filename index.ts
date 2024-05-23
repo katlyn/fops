@@ -10,6 +10,11 @@ export class Fops {
     return ">///<";
   }
 
+  /** Snuggle the fops */
+  snuggle (): string {
+    return "u///u"
+  }
+
   /** Pat the fops */
   pat (): string {
     return "^w^";
