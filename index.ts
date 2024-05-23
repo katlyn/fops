@@ -2,19 +2,20 @@
 export class Fops {
   /** Boop the fops */
   boop (): string {
-    return "*blep*"
+    return "*blep*";
   }
 
   /** Cuddle the fops */
   cuddle (): string {
-    return ">///<"
+    return ">///<";
   }
 
   /** Pat the fops */
   pat (): string {
-    return "^w^"
+    return "^w^";
   }
 }
 
+/** A ready to play with Fops */
 const defaultInstance: Fops = new Fops();
 export default defaultInstance;
